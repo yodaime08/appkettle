@@ -1,2 +1,6 @@
-# Home Assistant Addons
-My repo for HA addons I've worked on
+# Home Assistant Addons for AppKettle
+Clone of : https://github.com/longmover/ha_addons
+
+Some change :
+- 
+- 
