@@ -19,7 +19,7 @@ Once you have the min and max level values you can stop the addon, update the va
 I hope this is of use to someone out there, the code is based on the exellect work by https://github.com/tinaught/
 
 
-Configure your MQTT server variables :
+## Configure your MQTT server variables :
 mqtt_host : homeassistant ip
 mqtt_port : 1883 (defautl port)
 mqtt_usr/mqtt_pwd : user/login of HomeAssistant owner
