@@ -7,7 +7,7 @@ RUN \
     python3 \
     py3-pip \
     py3-paho-mqtt \
-    py3-pycryptodomex \
+    py3-pycryptodomex
 
 RUN \
   apk add -U g++ gcc
