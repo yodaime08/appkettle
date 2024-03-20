@@ -21,5 +21,7 @@ I hope this is of use to someone out there, the code is based on the exellect wo
 
 ## Configure your MQTT server variables :
 mqtt_host : homeassistant ip
+
 mqtt_port : 1883 (defautl port)
+
 mqtt_usr/mqtt_pwd : user/login of HomeAssistant owner
