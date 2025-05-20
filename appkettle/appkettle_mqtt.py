@@ -492,12 +492,13 @@ def main_loop(host_port, imei, mqtt_broker, lvl_calib):
         mqttc.user_data_set(kettle)
         mqttc.will_set(MQTT_AVAILABILITY_TOPIC,
                        "offline", retain=True)
+        mqttc.connect(mqtt_broker[0], int(mqtt_broker[1]))
+        mqttc.publish(MQTT_AVAILABILITY_TOPIC, "online", retain=True)
+
         print("mqtt_broker[0] :",mqtt_broker[0])
         print("mqtt_broker[1] :",mqtt_broker[1])
         print("mqtt_broker[2] :",mqtt_broker[2])
         print("mqtt_broker[3] :",mqtt_broker[3])
-        mqttc.connect(mqtt_broker[0], int(mqtt_broker[1]))
-        mqttc.publish(MQTT_AVAILABILITY_TOPIC, "online", retain=True)
         
         # publish HA discovery topics
         mqttc.publish(MQTT_SWITCH_DISC_TOPIC + "/power/config",
