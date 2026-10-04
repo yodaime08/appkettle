@@ -18,7 +18,7 @@ Once you have the min and max level values you can stop the addon, update the va
 
 I hope this is of use to someone out there, the code is based on the exellect work by https://github.com/tinaught/
 
-## Configure your MQTT server variables :
+## Configure your MQTT server variables mettez vous en modif pour le copier/coller)
 Options :
 logins: []
 log_dest: []
